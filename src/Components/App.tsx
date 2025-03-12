@@ -49,7 +49,7 @@ export default function App() {
   return (
     <div className="grid grid-row-3 grid-cols-2 h-screen">
       <div className="grid col-start-1 col-end-3 grid-cols-2">
-        <p className="font-bold text-zinc-50 p-6 text-4xl justify-self-start self-center">Weather App</p>
+        <p className="font-bold text-zinc-50 p-6 text-4xl justify-self-start self-center ml-15">Weather App</p>
         <div className="relative justify-self-center self-center">
           <Input className="w-120 bg-zinc-50 placeholder:text-slate-400 text-slate-700 text-sm border border-slate-200 rounded-md pr-3 pl-10 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow" type=" text" placeholder="Search for a city" ref={inputValue} />
           <Button className="absolute left-1 top-1 rounded bg-slate-800 p-1.5 border border-transparent text-center text-sm text-white transition-all shadow-sm hover:shadow focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none" type="button" value={buttonSvg()} onClickHandler={handleClick} />
