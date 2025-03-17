@@ -1,4 +1,4 @@
-# Weather_App
+# Weather App
 
 A weather app that displays weather information including temperature, weather description, humidity, precipitation, and UV index for the searched city. 
 
